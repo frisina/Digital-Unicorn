@@ -1,0 +1,41 @@
+Create Directory with the name "DigitalUnicorn"
+
+cd DigitalUnicorn/
+
+Create an empty file with the name "Empty"
+
+touch "Empty"
+
+Copy this file with the new name "Index"
+
+cp Empty Index
+
+Change the content of the "Index" file to "Hello DigiltalUnicorn"
+
+mv Index "Hello DigitalUnicorn"
+
+#Original Terminal Transcript
+
+revolverBloom:~ marco$ ls
+Applications Library Public
+Creative Cloud Files Movies RevolverBloom
+Desktop Music anaconda
+Documents Pictures seaborn-data
+Downloads Projects
+revolverBloom:~ marco$ cd RevolverBloom
+revolverBloom:RevolverBloom marco$ ls
+Icon? iosProjects sketchProjects unityProjects
+dataProjects pythonBootcamp swiftProjects
+revolverBloom:RevolverBloom marco$ cd iosProjects
+revolverBloom:iosProjects marco$ mkdir DigitalUnicorn
+revolverBloom:iosProjects marco$ cd DigitalUnicorn/
+revolverBloom:DigitalUnicorn marco$ touch "Empty"
+revolverBloom:DigitalUnicorn marco$ ls
+Empty
+revolverBloom:DigitalUnicorn marco$ cp Empty Index
+revolverBloom:DigitalUnicorn marco$ ls
+Empty Index
+revolverBloom:DigitalUnicorn marco$ mv Index "Hello DigitalUnicorn"
+revolverBloom:DigitalUnicorn marco$ ls
+Empty Hello DigitalUnicorn
+revolverBloom:DigitalUnicorn marco$
